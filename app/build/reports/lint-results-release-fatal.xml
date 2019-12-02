@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 3.1.2">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/imageView4`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/imageView4&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="59"
+            column="17"/>
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="33"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView1`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/textView1&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="65"
+            column="17"/>
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="39"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/imageView7`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="            android:id=&quot;@+id/imageView7&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="72"
+            column="13"/>
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="46"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/imageView7`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="            android:id=&quot;@+id/imageView7&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="104"
+            column="13"/>
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="46"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/imageView7`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="            android:id=&quot;@+id/imageView7&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="137"
+            column="13"/>
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="46"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/imageView6`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/imageView6&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="150"
+            column="17"/>
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="122"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView3`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/textView3&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="156"
+            column="17"/>
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="128"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/imageView7`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="            android:id=&quot;@+id/imageView7&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="164"
+            column="13"/>
+        <location
+            file="D:\Android\Hyundai_app1\app\src\main\res\layout\web_activity.xml"
+            line="46"
+            column="13"/>
+    </issue>
+
+</issues>
